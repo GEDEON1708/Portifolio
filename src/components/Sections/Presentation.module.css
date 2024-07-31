@@ -1,12 +1,45 @@
 .presentation{
     text-align: left;
     margin-left: 15%;
+    max-width: 80%;
 }
 
 .presentation h1{
     font-size: 45px;
+    font-size: 3.5vw;
 }
 
 .presentation h4{
     font-size: 25px;
+    font-size: 2vw;
+}
+
+@media(max-width: 768px){
+    .presentation{
+        margin-left: 10%;
+        max-width: 90%;
+    }
+
+    .presentation h1{
+        font-size: 30px;
+    }
+
+    .presentation h4{
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 480px){
+    .presentation{
+        margin-left: 5%;
+        max-width: 95;
+    }
+
+    .presentation h1{
+        font-size: 25px;
+    }
+
+    .presentation h4{
+        font-size: 18px;
+    }
 }
